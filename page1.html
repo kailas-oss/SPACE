@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Tourism</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Courier New', Courier, monospace;
+            color: white;
+            height: 100vh;
+            background-image: url('back.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .navbar {
+            /* background-color: rgb(63, 96, 140); */
+            padding-bottom: 20px;
+            padding-top: 25px;
+            margin-top: 3rem;
+            display: flex;
+            justify-content: space-between; /* Use space-between to separate the icon and list items */
+            align-items: center; /* Center items vertically */
+            padding-right: 20px; /* Add padding to the right to separate the items from the edge */
+        }
+
+        .nav, .nav ul, .nav a {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .nav a {
+            margin-left: 50px; /* Adjust margin to separate list items */
+            color: white;
+            text-decoration: none;
+        }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            margin-left: 13rem;
+            margin-top: 17rem; 
+        }
+
+        .head{
+            font-size: 6em;
+            margin-top: -0.5rem;
+        }
+
+        p{
+            width: 30%;
+            margin-top: -1.5rem;
+        }
+
+        .circle{
+            position: absolute;
+            width: 15%;
+            height: 25%;
+            border-radius: 50%;
+            background-color: white;
+            right:18%;
+            top: 54%;
+        }
+
+        .circle-inside{
+            margin-top: 5rem;
+            text-align: center;
+            font-size: 1.5em;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .image{
+            padding-left: 2rem;
+        }
+        a:hover{
+            color:rgb(13, 166, 208);
+            transition: .2s;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img class="image" style="width: 50px; height: 50px;" src="icon.png" alt="Space-Tourism" width="20px">
+            <ul class="nav">
+                <a href="page1.html"> 00  HOME<a></a>
+                <a href="page2.html"> 01  DESTINATION<a></a>
+                <a href="page3.html"> 02  CREW<a></a>
+                <a href="page4.html"> 03  TECHNOLOGY<a></a>
+            
+            </ul>
+        </div>
+    </div>
+
+    <div class="content">
+        <h4>SO , YOU WANT TO TRAVEL TO</h4>
+        <h1 class="head" >SPACE</h1>
+        <p>Let's face it; if you want to go to space. you might as well genuinely go to outer space and not hover kind of on the edge of it. Well, sit back, and relax because we'll give you a truly out-of-this-world experience!</p>
+    </div>
+
+    <div class="circle">
+        <div class="circle-inside" style="color: black;">EXPLORE</div>
+    </div>
+</body>
+</html>
